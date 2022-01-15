@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+body{
+    font-family: 'Oooh Baby', cursive;
+    background-color: #19d1d0;
+    font-size:25px;
+}
+/* Заголовки  */
+.t1{
+text-align: center;
+background: linear-gradient(0deg, rgba(2,0,36,1) 26%, rgba(143,22,143,1) 62%);
+text-transform: uppercase;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.t2{
+    text-align: center;
+}
+/* Тегов */
+.t3{
+font-weight: 600;
+background: linear-gradient(90deg, rgba(233,33,81,1) 26%, rgba(175,25,209,1) 58%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-size: 60px;
+}
+.box1{
+    background-color: rgb(252, 4, 4);
+    cursor: pointer; 
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+line-height:270px; 
+text-align:center;
+}
+.box1:hover{
+background-color: rgb(5, 5, 5);
+color: rgb(214, 13, 13);
+}
+/* Контейнер 1 */
+.conteyner{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(117, 12, 117);
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box01{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box02{
+    background-color: rgb(234, 250, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box03{
+    background-color: rgb(7, 250, 149);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box04{
+    background-color: rgb(250, 7, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box05{
+    background-color: rgb(58, 7, 177);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+/* Контейнер 2 */
+.conteyner2{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(117, 12, 117);
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box001{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box002{
+    background-color: rgb(234, 250, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box003{
+    background-color: rgb(7, 250, 149);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box004{
+    background-color: rgb(250, 7, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box005{
+    background-color: rgb(58, 7, 177);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+/* Контейнер 3 */
+.conteyner3{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(117, 12, 117);
+    height: 300px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box0001{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box0002{
+    background-color: rgb(234, 250, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box0003{
+    background-color: rgb(7, 250, 149);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box0004{
+    background-color: rgb(250, 7, 7);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.box0005{
+    background-color: rgb(58, 7, 177);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
